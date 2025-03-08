@@ -1,24 +1,29 @@
-Android SQLite Database Management
-Android
-Kotlin
-SQLite
+# Android SQLite Database Management
 
-Une application Android simple pour gérer une base de données SQLite. L'application permet d'ajouter, mettre à jour, supprimer et afficher des enregistrements dans une table "Admin". Ce projet est un exemple de base pour comprendre comment implémenter des opérations CRUD avec SQLite sur Android.
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-Fonctionnalités
-Ajouter un enregistrement : Ajouter un nouvel administrateur avec un nom.
+Une application Android simple pour gérer une base de données SQLite. Cette application permet d'effectuer des opérations CRUD sur une table **Admin**.
 
-Mettre à jour un enregistrement : Modifier le nom d'un administrateur existant en fonction de son ID.
+## ✨ Fonctionnalités
+- ✅ **Ajouter un enregistrement** : Ajouter un nouvel administrateur avec un nom.
+- ✏️ **Mettre à jour un enregistrement** : Modifier le nom d'un administrateur existant en fonction de son ID.
+- ❌ **Supprimer un enregistrement** : Supprimer un administrateur en fonction de son ID.
+- 📋 **Afficher tous les enregistrements** : Afficher la liste de tous les administrateurs dans une **ListView**.
 
-Supprimer un enregistrement : Supprimer un administrateur en fonction de son ID.
+---
 
-Afficher tous les enregistrements : Afficher la liste de tous les administrateurs dans une ListView.
+## 📷 Captures d'écran
+| Ajouter un enregistrement | Mettre à jour | Supprimer |
+|-----------------|-------------|------------|
+| ![Add](https://via.placeholder.com/150) | ![Update](https://via.placeholder.com/150) | ![Delete](https://via.placeholder.com/150) |
 
-Captures d'écran
-Ajouter un enregistrement	Mettre à jour un enregistrement	Supprimer un enregistrement
-Ajouter	Mettre à jour	Supprimer
-Structure du projet
-Copy
+---
+
+## 📂 Structure du projet
+
+```
 Android-SQLite-Database-Management/
 ├── app/
 │   ├── src/
@@ -32,59 +37,59 @@ Android-SQLite-Database-Management/
 │   │   │   │   ├── values/
 │   │   │   │   │   ├── strings.xml       # Fichier de ressources pour les chaînes de texte
 ├── README.md                             # Fichier README
-Prérequis
-Android Studio (version récente recommandée)
+```
 
-SDK Android (API 21 ou supérieure)
+---
 
-Un émulateur Android ou un appareil physique pour tester l'application
+## 🔧 Prérequis
+- 📱 **Android Studio** (Version récente recommandée)
+- 📡 **SDK Android** (API 21 ou supérieure)
+- 📲 **Un émulateur ou un appareil physique** pour tester l'application
 
-Installation
-Clonez ce dépôt sur votre machine locale :
+---
 
-bash
-Copy
+## 🚀 Installation
+```bash
 git clone https://github.com/Labrini-Ouiam/Android-SQLite-Database-Management.git
-Ouvrez le projet dans Android Studio.
+```
+- Ouvrez le projet dans **Android Studio**.
+- Synchronisez le projet avec **Gradle**.
+- Exécutez l'application sur un **émulateur** ou un **appareil physique**.
 
-Synchronisez le projet avec Gradle pour télécharger les dépendances nécessaires.
+---
 
-Exécutez l'application sur un émulateur Android ou un appareil physique.
+## 📌 Utilisation
+### ➕ Ajouter un enregistrement
+1. Saisissez un nom dans le champ **"Nom"**.
+2. Cliquez sur le bouton **"Enregistrer"**.
 
-Utilisation
-Ajouter un enregistrement :
+### ✏️ Mettre à jour un enregistrement
+1. Saisissez l'**ID** de l'enregistrement à modifier.
+2. Saisissez le **nouveau nom**.
+3. Cliquez sur **"Mettre à jour"**.
 
-Saisissez un nom dans le champ "Nom".
+### ❌ Supprimer un enregistrement
+1. Saisissez l'**ID** de l'enregistrement à supprimer.
+2. Cliquez sur **"Supprimer"**.
 
-Cliquez sur le bouton "Enregistrer".
+### 📋 Afficher les enregistrements
+- La liste des enregistrements est affichée automatiquement dans la **ListView**.
 
-Mettre à jour un enregistrement :
+---
 
-Saisissez l'ID de l'enregistrement à mettre à jour.
-
-Saisissez le nouveau nom dans le champ "Nom".
-
-Cliquez sur le bouton "Mettre à jour".
-
-Supprimer un enregistrement :
-
-Saisissez l'ID de l'enregistrement à supprimer.
-
-Cliquez sur le bouton "Supprimer".
-
-Afficher les enregistrements :
-
-La liste des enregistrements est automatiquement mise à jour et affichée dans la ListView en bas de l'écran.
-
-Contribution
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, veuillez suivre les étapes suivantes :
-
-Forkez le projet.
-
-Créez une branche pour votre fonctionnalité (git checkout -b feature/NouvelleFonctionnalité).
-
-Committez vos changements (git commit -m 'Ajout d'une nouvelle fonctionnalité').
-
-Poussez vers la branche (git push origin feature/NouvelleFonctionnalité).
-
-Ouvrez une Pull Request.
+## 🤝 Contribution
+Les contributions sont les bienvenues !
+1. **Forkez** le projet.
+2. Créez une **branche** pour votre fonctionnalité :
+   ```bash
+   git checkout -b feature/NouvelleFonctionnalité
+   ```
+3. **Committez** vos modifications :
+   ```bash
+   git commit -m 'Ajout d\'une nouvelle fonctionnalité'
+   ```
+4. **Poussez** vers la branche :
+   ```bash
+   git push origin feature/NouvelleFonctionnalité
+   ```
+5. **Créez une Pull Request**.
