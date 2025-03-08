@@ -15,7 +15,7 @@ Une application Android simple pour gérer une base de données SQLite. Cette ap
 ---
 
 ## 📷 Captures d'écran
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/fd1e6ac8-a8ce-43e0-9cb4-d5c57376306a)
 
 ---
 
