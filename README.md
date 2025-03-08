@@ -15,9 +15,7 @@ Une application Android simple pour gérer une base de données SQLite. Cette ap
 ---
 
 ## 📷 Captures d'écran
-| Ajouter un enregistrement | Mettre à jour | Supprimer |
-|-----------------|-------------|------------|
-| ![Add](https://via.placeholder.com/150) | ![Update](https://via.placeholder.com/150) | ![Delete](https://via.placeholder.com/150) |
+![Uploading image.png…]()
 
 ---
 
